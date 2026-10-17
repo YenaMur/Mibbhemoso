@@ -1,14 +1,16 @@
 const configData = {
-  apodo: "Alejo",
+  apodo: "Mi chikistrikis",
   remitente: "Tu persona favorita",
   cartaTexto: `
-    <p><strong>Alejo,</strong></p><br>
-    <p>Si estás leyendo esto, es porque sobreviviste al cuestionario del administrador (o hiciste trampa y te saltaste directo aquí, lo cual también entiendo perfectamente).</p><br>
-    <p>Quería regalarte algo diferente, un espacio hecho a nuestra medida donde cada recuerdo y cada detalle importan. Gracias por ser mi aventura favorita todos los días.</p><br>
-    <p>Espero que este pequeño detalle te haya sacado una sonrisa y que recuerdes que, aunque la vida nos ponga pruebas, siempre podemos encontrar momentos para reír, amar y disfrutar juntos.</p><br>
-    <p>Y sobretodo que independientemente de lo que suceda, siempre estaré aquí para ti, apoyandote, amandote y anhelandote con cada fibra de mi corazon</p><br>
-    <p>Aunque esta es una prueba de mi pequeña idea de ingresos, te la quiero dedicar a ti con mucho amor mi bebe dindo picioso, te amooo</p><br>
-    <p style="text-align: right; margin-top: 16px; font-weight: bold;">Por siempre tuya,<br>Andrea</p>
+    <p><strong>Mi amor:</strong></p><br>
+    <p>A veces me pongo a pensar en lo bonito que ha sido coincidir contigo en esta vida. Entre tantas personas, tantos caminos y tantas historias posibles, tuve la fortuna de encontrarme contigo, de conocerte, de enamorarme de tu forma de ser y de descubrir que una persona puede convertirse en un lugar seguro,
+     en una sonrisa en medio de un día difícil y en una razón para querer ser mejor cada día.</p><br>
+    <p>Quiero que sepas que lo que siento por ti va mucho más allá de las palabras bonitas, de los detalles o de los momentos felices que compartimos. Te amo por lo que eres, por tu manera de hacerme sentir, por las cosas que me gustan de ti y también por esas pequeñas particularidades que te hacen ser una persona única para mí.
+     Amo conocerte, descubrir nuevas partes de ti y tener la oportunidad de seguir construyendo una historia a tu lado.</p><br>
+    <p>No puedo prometerte que siempre tendré las palabras perfectas ni que nunca cometeré errores. Pero sí quiero aprender, mejorar y demostrarte que tu corazón merece cuidado, sinceridad y respeto. Quiero que podamos mirar hacia atrás algún día
+     y sentir orgullo por todo lo que superamos, por todo lo que aprendimos y por el amor que supimos cultivar.</p><br>
+    <p>Con todo mi amor, hoy y en cada oportunidad que tenga de demostrártelo. </p><br>
+     <p style="text-align: right; margin-top: 16px; font-weight: bold;">Te amo,<br>mi chikistrikis</p>
   `
 };
 
@@ -18,11 +20,11 @@ const quizQuestions = [
     question: "¿Qué plan me hace más feliz contigo?",
     options: [
       "Todas las anteriores (Opción ganadora absoluta)", 
-      "Ver películas y comer algo rico sin afán",
+      "Cuando estamos juntos, vemos algo acurrucados y nos quedamos mimidos",
       "Cualquier viaje o caminata improvisada",
       "Quedarnos jugando hasta la madrugada"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     negatives: [
       "Mmm, no. Pero bueno, el comienzo es difícil de recordar. Hasta para mí, que lo tengo todo escrito.",
       "Otra vez no. ¿Estás seguro? Porque yo tengo aquí una versión diferente. Y la mía es la correcta.",
@@ -40,12 +42,12 @@ const quizQuestions = [
     theme: "Las primeras mariposas",
     question: "¿Quién se enamoró primero en esta historia?",
     options: [
-      "Definitivamente tú",
+      "Ella, con semejante dios del olimpo",
       "Fue un empate técnico y simultáneo", 
       "Yo (sin lugar a dudas)",
       "El destino tomó la decisión por los dos"
     ],
-    correctIndex: 1, 
+    correctIndex: 0, 
     negatives: [
       "No era esa. Pero tranquilo, las mariposas confunden a cualquiera.",
       "¿Otra vez? Mirá que esto no es un test de paciencia. Aunque lo parezca.",
@@ -66,9 +68,9 @@ const quizQuestions = [
       "Nuestra primera cita oficial",
       "Cuando Andrea se golpeó la cabeza con la máquina de ejercicios del parque",
       "Nuestras risas cotidianas y torpezas sin sentido", 
-      "Cualquier día ordinario convertido en desastre"
+      "Cuando ibamos bajando de nuestro primer viaje de senderismo"
     ],
-    correctIndex: 1, 
+    correctIndex: 3, 
     negatives: [
       "No era esa. Las anécdotas se mezclan, hasta a mí me pasa.",
       "Otra vez no. Esa historia tiene elementos, pero no los correctos.",
@@ -89,7 +91,7 @@ const quizQuestions = [
       "Salir a comer algo rico por ahí",
       "Ver maratones de series con cobija",
       "Cualquier plan si estamos juntos",
-      "Quedarnos en casa disfrutando la compañía mutua" 
+      "Salir a comer algo rico, luego ver pelicula, luego hacer el frutifantastico y luego dormir para levantarnos a jugar" 
     ],
     correctIndex: 3, 
     negatives: [
@@ -112,7 +114,7 @@ const quizQuestions = [
       "Los chistes internos que nadie más entiende", 
       "Nuestra forma única de decirnos las cosas",
       "Las costumbres raras de cada día",
-      "Todas aplican sin discusión"
+      "Que conversamos con libertad"
     ],
     correctIndex: 3, 
     negatives: [
@@ -132,12 +134,12 @@ const quizQuestions = [
     theme: "Estar en las buenas y en las malas",
     question: "¿Qué define mejor nuestro apoyo mutuo?",
     options: [
-      "Resolver cualquier problema con una sonrisa",
+      "Hablar y estar presentes",
       "Estar ahí sin hacer ruido ni pedir nada a cambio", 
       "Escucharnos cuando el mundo pesa demasiado",
       "Ser el refugio seguro del otro"
     ],
-    correctIndex: 3, 
+    correctIndex: 0, 
     negatives: [
       "No era esa. Estos momentos son difíciles de recordar.",
       "Otra vez no. Esto no es un test de resistencia emocional.",
@@ -156,11 +158,11 @@ const quizQuestions = [
     question: "¿Cuál es el sueño o próxima aventura que más nos emociona?",
     options: [
       "Construir nuestro propio espacio juntos",
-      "Superar nuevos retos profesionales y personales",
+      "Un senderismo con quedada hasta el otro dia jejejeje",
       "Todo lo que venga mientras sea de la mano", 
       "Viajar por el mundo y crear nuevos recuerdos"
     ],
-    correctIndex: 2, 
+    correctIndex: 1, 
     negatives: [
       "No era esa. El futuro es incierto, hasta para mí.",
       "Otra vez no. La próxima aventura se sueña y se recuerda.",

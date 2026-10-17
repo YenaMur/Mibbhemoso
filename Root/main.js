@@ -13,7 +13,7 @@ const configData = {
      <p style="text-align: right; margin-top: 16px; font-weight: bold;">Te amo,<br>mi chikistrikis</p>
   `
 };
-
+ 
 const quizQuestions = [
   {
     theme: "El comienzo de todo",
